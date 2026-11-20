@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aegis-drfm"
+version = "0.1.0"
+description = "Modular DRFM, Radar, RF, SIGINT/ELINT, and ECCM Simulation & Hardware-Ready Suite"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["packages/core-dsp/src", "packages/drfm-ecm/src", "packages/sigint-esm/src", "packages/eccm-radar/src", "packages/aesa-monopulse/src", "packages/sar-isar/src"]
