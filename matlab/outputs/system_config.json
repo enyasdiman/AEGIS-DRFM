@@ -1,0 +1,40 @@
+{
+  "radar": {
+    "name": "AEGIS-XBand-Tracker",
+    "fc_hz": 1.0E+10,
+    "lambda_m": 0.0299792458,
+    "pt_w": 25000,
+    "gt_db": 32,
+    "gr_db": 32,
+    "nf_db": 4,
+    "loss_db": 5,
+    "bandwidth_hz": 2.0E+7,
+    "pulse_width_s": 1E-5,
+    "prf_hz": 5000,
+    "num_pulses": 64,
+    "fs_hz": 5.0E+7,
+    "target_rcs_m2": 5,
+    "target_range_m": 12000,
+    "target_vel_mps": -220
+  },
+  "jammer": {
+    "erp_w": 500,
+    "bandwidth_hz": 2.0E+7,
+    "loss_db": 3,
+    "adc_bits": 8,
+    "loop_delay_ns": 120
+  },
+  "derived": {
+    "bt_gain_db": 23.010299956639813,
+    "cpi_gain_db": 18.061799739838872,
+    "unambiguous_rng_m": 29979.2458,
+    "range_res_m": 7.49481145,
+    "doppler_res_hz": 78.125,
+    "vel_res_mps": 1.1710642890625,
+    "burn_through_m": 141.04739588693909,
+    "nom_snr_single_db": 10.385052633586509,
+    "nom_snr_pc_db": 33.395352590226324,
+    "nom_snr_cpi_db": 51.4571523300652,
+    "nom_jsr_db": 38.567224989489596
+  }
+}

@@ -1,0 +1,4 @@
+C:/Users/enyas/.gemini/antigravity/scratch/aegis-drfm/build-rt/CMakeFiles/drfm_rt_benchmark.dir
+C:/Users/enyas/.gemini/antigravity/scratch/aegis-drfm/build-rt/CMakeFiles/aegis_rt_capi.dir
+C:/Users/enyas/.gemini/antigravity/scratch/aegis-drfm/build-rt/CMakeFiles/edit_cache.dir
+C:/Users/enyas/.gemini/antigravity/scratch/aegis-drfm/build-rt/CMakeFiles/rebuild_cache.dir
